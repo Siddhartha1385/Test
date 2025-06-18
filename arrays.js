@@ -19,7 +19,7 @@
 // console.log(newnums);
 
 
-const mynums=[1,2,3]
+//const mynums=[1,2,3]
 
 // const total= mynums.reduce(
 //     function (acc,currval) {
@@ -29,8 +29,14 @@ const mynums=[1,2,3]
 //     },0
 // )
 
-const total=mynums.reduce(
-    (acc,currval) => acc + currval,0
-)
+// const total=mynums.reduce(
+//     (acc,currval) => acc + currval,0
+// )
 
-console.log(total);
+// console.log(total);
+
+const mynums=[1,2,3,4,5,6,7,8,9,10]
+
+const nums=mynums.filter((num) => num>=3).filter((num) => num<=8)
+console.log(nums);
+
